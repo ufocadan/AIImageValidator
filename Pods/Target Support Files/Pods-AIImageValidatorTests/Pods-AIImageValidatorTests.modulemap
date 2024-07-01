@@ -1,0 +1,6 @@
+framework module Pods_AIImageValidatorTests {
+  umbrella header "Pods-AIImageValidatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

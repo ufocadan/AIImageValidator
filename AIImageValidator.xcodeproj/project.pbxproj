@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73E0E14F1497E6201AE69EF2 /* Pods_AIImageValidator_AIImageValidatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F84E6AE94B3128F636422E /* Pods_AIImageValidator_AIImageValidatorUITests.framework */; };
+		CB4D9F9C2C3347B20089C800 /* AIImageValidatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D9F9B2C3347B20089C800 /* AIImageValidatorApp.swift */; };
+		CB4D9F9E2C3347B20089C800 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D9F9D2C3347B20089C800 /* ContentView.swift */; };
+		CB4D9FA02C3347B30089C800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4D9F9F2C3347B30089C800 /* Assets.xcassets */; };
+		CB4D9FA32C3347B30089C800 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4D9FA22C3347B30089C800 /* Preview Assets.xcassets */; };
+		CB4D9FAD2C3347B30089C800 /* AIImageValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D9FAC2C3347B30089C800 /* AIImageValidatorTests.swift */; };
+		CB4D9FB72C3347B30089C800 /* AIImageValidatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D9FB62C3347B30089C800 /* AIImageValidatorUITests.swift */; };
+		CB4D9FB92C3347B30089C800 /* AIImageValidatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D9FB82C3347B30089C800 /* AIImageValidatorUITestsLaunchTests.swift */; };
+		CB4D9FC62C3349D00089C800 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB4D9FC52C3349D00089C800 /* GoogleService-Info.plist */; };
+		CB4D9FC82C3354A70089C800 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D9FC72C3354A70089C800 /* AuthViewModel.swift */; };
+		CB4D9FCA2C3354ED0089C800 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D9FC92C3354ED0089C800 /* AuthView.swift */; };
+		CB4D9FCB2C3358750089C800 /* Pods_AIImageValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BC3C3AB8355E535A7C9F94 /* Pods_AIImageValidator.framework */; };
+		CB4D9FCC2C3358750089C800 /* Pods_AIImageValidator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02BC3C3AB8355E535A7C9F94 /* Pods_AIImageValidator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA258146AED85A4A182CCE4E /* Pods_AIImageValidatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17676C6015613C95C2C7FA8 /* Pods_AIImageValidatorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB4D9FA92C3347B30089C800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4D9F902C3347B20089C800 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4D9F972C3347B20089C800;
+			remoteInfo = AIImageValidator;
+		};
+		CB4D9FB32C3347B30089C800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4D9F902C3347B20089C800 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4D9F972C3347B20089C800;
+			remoteInfo = AIImageValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB4D9FCD2C3358750089C800 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CB4D9FCC2C3358750089C800 /* Pods_AIImageValidator.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02BC3C3AB8355E535A7C9F94 /* Pods_AIImageValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIImageValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAB5E8ADF05EC6211998E9E /* Pods-AIImageValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageValidator.debug.xcconfig"; path = "Target Support Files/Pods-AIImageValidator/Pods-AIImageValidator.debug.xcconfig"; sourceTree = "<group>"; };
+		484316720BB0B924A30BFBA2 /* Pods-AIImageValidatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageValidatorTests.release.xcconfig"; path = "Target Support Files/Pods-AIImageValidatorTests/Pods-AIImageValidatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E75887D15053CE5CDEDBBCB /* Pods-AIImageValidator-AIImageValidatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageValidator-AIImageValidatorUITests.release.xcconfig"; path = "Target Support Files/Pods-AIImageValidator-AIImageValidatorUITests/Pods-AIImageValidator-AIImageValidatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85737D2685054DC323AD8943 /* Pods-AIImageValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageValidator.release.xcconfig"; path = "Target Support Files/Pods-AIImageValidator/Pods-AIImageValidator.release.xcconfig"; sourceTree = "<group>"; };
+		A17676C6015613C95C2C7FA8 /* Pods_AIImageValidatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIImageValidatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44F3B98789A2A8EB305C6B8 /* Pods-AIImageValidator-AIImageValidatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageValidator-AIImageValidatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-AIImageValidator-AIImageValidatorUITests/Pods-AIImageValidator-AIImageValidatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4D9F982C3347B20089C800 /* AIImageValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIImageValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4D9F9B2C3347B20089C800 /* AIImageValidatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImageValidatorApp.swift; sourceTree = "<group>"; };
+		CB4D9F9D2C3347B20089C800 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB4D9F9F2C3347B30089C800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB4D9FA22C3347B30089C800 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB4D9FA82C3347B30089C800 /* AIImageValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIImageValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4D9FAC2C3347B30089C800 /* AIImageValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImageValidatorTests.swift; sourceTree = "<group>"; };
+		CB4D9FB22C3347B30089C800 /* AIImageValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIImageValidatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4D9FB62C3347B30089C800 /* AIImageValidatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImageValidatorUITests.swift; sourceTree = "<group>"; };
+		CB4D9FB82C3347B30089C800 /* AIImageValidatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImageValidatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB4D9FC52C3349D00089C800 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB4D9FC72C3354A70089C800 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CB4D9FC92C3354ED0089C800 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		CB4D9FCE2C335A180089C800 /* AIImageValidator */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AIImageValidator; sourceTree = "<group>"; };
+		D554F8521C60F202AFBD466D /* Pods-AIImageValidatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageValidatorTests.debug.xcconfig"; path = "Target Support Files/Pods-AIImageValidatorTests/Pods-AIImageValidatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F84E6AE94B3128F636422E /* Pods_AIImageValidator_AIImageValidatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIImageValidator_AIImageValidatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4D9F952C3347B20089C800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4D9FCB2C3358750089C800 /* Pods_AIImageValidator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4D9FA52C3347B30089C800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA258146AED85A4A182CCE4E /* Pods_AIImageValidatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4D9FAF2C3347B30089C800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E0E14F1497E6201AE69EF2 /* Pods_AIImageValidator_AIImageValidatorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D2CF2D0BDE5EEA6A8645AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D9FCE2C335A180089C800 /* AIImageValidator */,
+				02BC3C3AB8355E535A7C9F94 /* Pods_AIImageValidator.framework */,
+				F2F84E6AE94B3128F636422E /* Pods_AIImageValidator_AIImageValidatorUITests.framework */,
+				A17676C6015613C95C2C7FA8 /* Pods_AIImageValidatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4D252350F726C97D110717A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DAB5E8ADF05EC6211998E9E /* Pods-AIImageValidator.debug.xcconfig */,
+				85737D2685054DC323AD8943 /* Pods-AIImageValidator.release.xcconfig */,
+				B44F3B98789A2A8EB305C6B8 /* Pods-AIImageValidator-AIImageValidatorUITests.debug.xcconfig */,
+				4E75887D15053CE5CDEDBBCB /* Pods-AIImageValidator-AIImageValidatorUITests.release.xcconfig */,
+				D554F8521C60F202AFBD466D /* Pods-AIImageValidatorTests.debug.xcconfig */,
+				484316720BB0B924A30BFBA2 /* Pods-AIImageValidatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB4D9F8F2C3347B20089C800 = {
+			isa = PBXGroup;
+			children = (
+				CB4D9F9A2C3347B20089C800 /* AIImageValidator */,
+				CB4D9FAB2C3347B30089C800 /* AIImageValidatorTests */,
+				CB4D9FB52C3347B30089C800 /* AIImageValidatorUITests */,
+				CB4D9F992C3347B20089C800 /* Products */,
+				A4D252350F726C97D110717A /* Pods */,
+				5D2CF2D0BDE5EEA6A8645AFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4D9F992C3347B20089C800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D9F982C3347B20089C800 /* AIImageValidator.app */,
+				CB4D9FA82C3347B30089C800 /* AIImageValidatorTests.xctest */,
+				CB4D9FB22C3347B30089C800 /* AIImageValidatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB4D9F9A2C3347B20089C800 /* AIImageValidator */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D9F9B2C3347B20089C800 /* AIImageValidatorApp.swift */,
+				CB4D9F9D2C3347B20089C800 /* ContentView.swift */,
+				CB4D9F9F2C3347B30089C800 /* Assets.xcassets */,
+				CB4D9FC52C3349D00089C800 /* GoogleService-Info.plist */,
+				CB4D9FA12C3347B30089C800 /* Preview Content */,
+				CB4D9FC72C3354A70089C800 /* AuthViewModel.swift */,
+				CB4D9FC92C3354ED0089C800 /* AuthView.swift */,
+			);
+			path = AIImageValidator;
+			sourceTree = "<group>";
+		};
+		CB4D9FA12C3347B30089C800 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D9FA22C3347B30089C800 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB4D9FAB2C3347B30089C800 /* AIImageValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D9FAC2C3347B30089C800 /* AIImageValidatorTests.swift */,
+			);
+			path = AIImageValidatorTests;
+			sourceTree = "<group>";
+		};
+		CB4D9FB52C3347B30089C800 /* AIImageValidatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D9FB62C3347B30089C800 /* AIImageValidatorUITests.swift */,
+				CB4D9FB82C3347B30089C800 /* AIImageValidatorUITestsLaunchTests.swift */,
+			);
+			path = AIImageValidatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4D9F972C3347B20089C800 /* AIImageValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4D9FBC2C3347B30089C800 /* Build configuration list for PBXNativeTarget "AIImageValidator" */;
+			buildPhases = (
+				3D9DB7ED4B8EB4D19764D7F8 /* [CP] Check Pods Manifest.lock */,
+				CB4D9F942C3347B20089C800 /* Sources */,
+				CB4D9F952C3347B20089C800 /* Frameworks */,
+				CB4D9F962C3347B20089C800 /* Resources */,
+				4982A71435FBEA565B40CF30 /* [CP] Embed Pods Frameworks */,
+				CB4D9FCD2C3358750089C800 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIImageValidator;
+			productName = AIImageValidator;
+			productReference = CB4D9F982C3347B20089C800 /* AIImageValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB4D9FA72C3347B30089C800 /* AIImageValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4D9FBF2C3347B30089C800 /* Build configuration list for PBXNativeTarget "AIImageValidatorTests" */;
+			buildPhases = (
+				5611BD1E066FE4026BE7DDD6 /* [CP] Check Pods Manifest.lock */,
+				CB4D9FA42C3347B30089C800 /* Sources */,
+				CB4D9FA52C3347B30089C800 /* Frameworks */,
+				CB4D9FA62C3347B30089C800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB4D9FAA2C3347B30089C800 /* PBXTargetDependency */,
+			);
+			name = AIImageValidatorTests;
+			productName = AIImageValidatorTests;
+			productReference = CB4D9FA82C3347B30089C800 /* AIImageValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB4D9FB12C3347B30089C800 /* AIImageValidatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4D9FC22C3347B30089C800 /* Build configuration list for PBXNativeTarget "AIImageValidatorUITests" */;
+			buildPhases = (
+				CAF1175CD2DC8707F61C9F5E /* [CP] Check Pods Manifest.lock */,
+				CB4D9FAE2C3347B30089C800 /* Sources */,
+				CB4D9FAF2C3347B30089C800 /* Frameworks */,
+				CB4D9FB02C3347B30089C800 /* Resources */,
+				059DF82B5AE87655DA8153FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB4D9FB42C3347B30089C800 /* PBXTargetDependency */,
+			);
+			name = AIImageValidatorUITests;
+			productName = AIImageValidatorUITests;
+			productReference = CB4D9FB22C3347B30089C800 /* AIImageValidatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB4D9F902C3347B20089C800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CB4D9F972C3347B20089C800 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CB4D9FA72C3347B30089C800 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CB4D9F972C3347B20089C800;
+					};
+					CB4D9FB12C3347B30089C800 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CB4D9F972C3347B20089C800;
+					};
+				};
+			};
+			buildConfigurationList = CB4D9F932C3347B20089C800 /* Build configuration list for PBXProject "AIImageValidator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB4D9F8F2C3347B20089C800;
+			productRefGroup = CB4D9F992C3347B20089C800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4D9F972C3347B20089C800 /* AIImageValidator */,
+				CB4D9FA72C3347B30089C800 /* AIImageValidatorTests */,
+				CB4D9FB12C3347B30089C800 /* AIImageValidatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB4D9F962C3347B20089C800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4D9FA32C3347B30089C800 /* Preview Assets.xcassets in Resources */,
+				CB4D9FA02C3347B30089C800 /* Assets.xcassets in Resources */,
+				CB4D9FC62C3349D00089C800 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4D9FA62C3347B30089C800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4D9FB02C3347B30089C800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		059DF82B5AE87655DA8153FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIImageValidator-AIImageValidatorUITests/Pods-AIImageValidator-AIImageValidatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIImageValidator-AIImageValidatorUITests/Pods-AIImageValidator-AIImageValidatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIImageValidator-AIImageValidatorUITests/Pods-AIImageValidator-AIImageValidatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D9DB7ED4B8EB4D19764D7F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIImageValidator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4982A71435FBEA565B40CF30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIImageValidator/Pods-AIImageValidator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIImageValidator/Pods-AIImageValidator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIImageValidator/Pods-AIImageValidator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5611BD1E066FE4026BE7DDD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIImageValidatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF1175CD2DC8707F61C9F5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIImageValidator-AIImageValidatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4D9F942C3347B20089C800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4D9F9E2C3347B20089C800 /* ContentView.swift in Sources */,
+				CB4D9F9C2C3347B20089C800 /* AIImageValidatorApp.swift in Sources */,
+				CB4D9FCA2C3354ED0089C800 /* AuthView.swift in Sources */,
+				CB4D9FC82C3354A70089C800 /* AuthViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4D9FA42C3347B30089C800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4D9FAD2C3347B30089C800 /* AIImageValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4D9FAE2C3347B30089C800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4D9FB72C3347B30089C800 /* AIImageValidatorUITests.swift in Sources */,
+				CB4D9FB92C3347B30089C800 /* AIImageValidatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB4D9FAA2C3347B30089C800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4D9F972C3347B20089C800 /* AIImageValidator */;
+			targetProxy = CB4D9FA92C3347B30089C800 /* PBXContainerItemProxy */;
+		};
+		CB4D9FB42C3347B30089C800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4D9F972C3347B20089C800 /* AIImageValidator */;
+			targetProxy = CB4D9FB32C3347B30089C800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB4D9FBA2C3347B30089C800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB4D9FBB2C3347B30089C800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB4D9FBD2C3347B30089C800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAB5E8ADF05EC6211998E9E /* Pods-AIImageValidator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AIImageValidator/Preview Content\"";
+				DEVELOPMENT_TEAM = M4BT874TV6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unalfocadan.AIImageValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB4D9FBE2C3347B30089C800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85737D2685054DC323AD8943 /* Pods-AIImageValidator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AIImageValidator/Preview Content\"";
+				DEVELOPMENT_TEAM = M4BT874TV6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unalfocadan.AIImageValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB4D9FC02C3347B30089C800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D554F8521C60F202AFBD466D /* Pods-AIImageValidatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4BT874TV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unalfocadan.AIImageValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIImageValidator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AIImageValidator";
+			};
+			name = Debug;
+		};
+		CB4D9FC12C3347B30089C800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484316720BB0B924A30BFBA2 /* Pods-AIImageValidatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4BT874TV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unalfocadan.AIImageValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIImageValidator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AIImageValidator";
+			};
+			name = Release;
+		};
+		CB4D9FC32C3347B30089C800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44F3B98789A2A8EB305C6B8 /* Pods-AIImageValidator-AIImageValidatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4BT874TV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unalfocadan.AIImageValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AIImageValidator;
+			};
+			name = Debug;
+		};
+		CB4D9FC42C3347B30089C800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E75887D15053CE5CDEDBBCB /* Pods-AIImageValidator-AIImageValidatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4BT874TV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unalfocadan.AIImageValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AIImageValidator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4D9F932C3347B20089C800 /* Build configuration list for PBXProject "AIImageValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4D9FBA2C3347B30089C800 /* Debug */,
+				CB4D9FBB2C3347B30089C800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4D9FBC2C3347B30089C800 /* Build configuration list for PBXNativeTarget "AIImageValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4D9FBD2C3347B30089C800 /* Debug */,
+				CB4D9FBE2C3347B30089C800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4D9FBF2C3347B30089C800 /* Build configuration list for PBXNativeTarget "AIImageValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4D9FC02C3347B30089C800 /* Debug */,
+				CB4D9FC12C3347B30089C800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4D9FC22C3347B30089C800 /* Build configuration list for PBXNativeTarget "AIImageValidatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4D9FC32C3347B30089C800 /* Debug */,
+				CB4D9FC42C3347B30089C800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB4D9F902C3347B20089C800 /* Project object */;
+}
