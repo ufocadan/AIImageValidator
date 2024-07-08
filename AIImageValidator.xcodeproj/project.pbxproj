@@ -20,6 +20,8 @@
 		CB4D9FCA2C3354ED0089C800 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D9FC92C3354ED0089C800 /* AuthView.swift */; };
 		CB4D9FCB2C3358750089C800 /* Pods_AIImageValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BC3C3AB8355E535A7C9F94 /* Pods_AIImageValidator.framework */; };
 		CB4D9FCC2C3358750089C800 /* Pods_AIImageValidator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02BC3C3AB8355E535A7C9F94 /* Pods_AIImageValidator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB4F50472C3C7F6300EF01BF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F50462C3C7F6300EF01BF /* ImagePicker.swift */; };
+		CB4F50492C3C7FA500EF01BF /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F50482C3C7FA500EF01BF /* StorageManager.swift */; };
 		DA258146AED85A4A182CCE4E /* Pods_AIImageValidatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17676C6015613C95C2C7FA8 /* Pods_AIImageValidatorTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +77,9 @@
 		CB4D9FC52C3349D00089C800 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CB4D9FC72C3354A70089C800 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		CB4D9FC92C3354ED0089C800 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
-		CB4D9FCE2C335A180089C800 /* AIImageValidator */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AIImageValidator; sourceTree = "<group>"; };
+		CB4D9FCE2C335A180089C800 /* AIImageValidator */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AIImageValidator; sourceTree = "<group>"; };
+		CB4F50462C3C7F6300EF01BF /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CB4F50482C3C7FA500EF01BF /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		D554F8521C60F202AFBD466D /* Pods-AIImageValidatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageValidatorTests.debug.xcconfig"; path = "Target Support Files/Pods-AIImageValidatorTests/Pods-AIImageValidatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2F84E6AE94B3128F636422E /* Pods_AIImageValidator_AIImageValidatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIImageValidator_AIImageValidatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,6 +168,8 @@
 				CB4D9FA12C3347B30089C800 /* Preview Content */,
 				CB4D9FC72C3354A70089C800 /* AuthViewModel.swift */,
 				CB4D9FC92C3354ED0089C800 /* AuthView.swift */,
+				CB4F50462C3C7F6300EF01BF /* ImagePicker.swift */,
+				CB4F50482C3C7FA500EF01BF /* StorageManager.swift */,
 			);
 			path = AIImageValidator;
 			sourceTree = "<group>";
@@ -435,6 +441,8 @@
 			files = (
 				CB4D9F9E2C3347B20089C800 /* ContentView.swift in Sources */,
 				CB4D9F9C2C3347B20089C800 /* AIImageValidatorApp.swift in Sources */,
+				CB4F50472C3C7F6300EF01BF /* ImagePicker.swift in Sources */,
+				CB4F50492C3C7FA500EF01BF /* StorageManager.swift in Sources */,
 				CB4D9FCA2C3354ED0089C800 /* AuthView.swift in Sources */,
 				CB4D9FC82C3354A70089C800 /* AuthViewModel.swift in Sources */,
 			);
